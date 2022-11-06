@@ -5,6 +5,8 @@ Input text file: 5
                  A-eS
                  A-^
                  E-b
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
