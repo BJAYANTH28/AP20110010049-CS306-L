@@ -1,3 +1,10 @@
+/*
+Input text file: 5
+                 S-iEtSA
+                 S-a
+                 A-eS
+                 A-^
+                 E-b
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
