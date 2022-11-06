@@ -245,8 +245,7 @@ void FOLLOW(char *Result, char c)
         {
             if (production[i][j] == c)
             {
-                // printArray(production[i]);
-                // printf("\n");
+                
                 if (production[i][j + 1] != '\0')
                 {
                     int flag = 1;
@@ -255,8 +254,7 @@ void FOLLOW(char *Result, char c)
                         flag = 0;
                         first[0] = '\0';
                         FIRST(first, production[i][k]);
-                        // printArray(first);
-                        // printf("\n");
+                        
                         for (int l = 0; first[l] != '\0'; l++) {
                             if (first[l] == '^') {
                                 flag = 1;
